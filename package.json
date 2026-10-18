@@ -1,0 +1,14 @@
+{
+  "name": "prizify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An independent music discovery app with original, locally playable demo music.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "license": "MIT"
+}
